@@ -5,8 +5,12 @@ a day, newest first, and a change goes under the date of the day it is made.
 
 ## 2026-10-22
 
+- The Hall of Fame answer on a score issue numbers the worlds from 0, as the game does.
+- Sending your Guinea Run scores works from the GitHub mobile app too: it used to open a blank issue.
 - Guinea Run, the game hidden in every page, is online: the Konami code or five taps on the guinea pig in the footer open it, on a computer or a smartphone.
 - The guinea pig of Guinea Run squeaks with a new, shorter set of wheeks when it jumps.
+- Guinea Run has Easy, Normal and Hard modes: Normal runs 1.5 times faster for 1.5 times the points, Hard twice as fast for twice the points.
+- Guinea Run has a [Hall of Fame](https://sfdx-hardis-training.cloudity.com/hall-of-fame/): send your scores from the game to GitHub, and beat the bosses fast for a speed bonus.
 
 ## 2026-10-21
 
