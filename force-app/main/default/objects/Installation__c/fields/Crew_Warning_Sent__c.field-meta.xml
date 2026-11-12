@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crew_Warning_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>speaks to a flow to tell the user that the crew is to small</description>
+    <inlineHelpText>this is for the system</inlineHelpText>
+    <label>Crew Warning Sent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
