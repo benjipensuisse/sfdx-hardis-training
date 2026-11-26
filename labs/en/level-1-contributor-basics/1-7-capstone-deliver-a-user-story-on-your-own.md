@@ -20,7 +20,7 @@ depends_on:
 
 **Level**: 1 Contributor basics
 
-**Time**: ~25 min<!-- observed --> (observed: median 27 min, 27 learners, fastest 7 min)<!-- /observed -->
+**Time**: ~25 min<!-- observed --> (observed: median 27 min, 50 learners, fastest 7 min)<!-- /observed -->
 
 **You will**: do the whole loop again with no step-by-step, which is the only way to find out
 whether you learned it.
@@ -127,6 +127,11 @@ A job then clones your fork, re-runs every check above against it, and answers o
 reviews it by hand, so it usually takes a couple of minutes. If something does not verify, the
 comment names the exact lab and what it looked for, you fix it, and you edit the issue to run it
 again.
+
+The files are not enough on their own. The job also reads, on GitHub, the Pull Request each lab
+ended with, and checks that **Simulate Deployment (sfdx-hardis)** ran on it against your org. That
+is the trace of the work itself, and why each lab merges through a Pull Request with its checks
+green rather than by a push.
 
 Your fork has to be public for the audit to read it. If it is private, the command offers to
 make it public.

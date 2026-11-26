@@ -5,7 +5,7 @@ description: "Modifiez un flow Salesforce existant, puis lisez correctement un c
 level: 2
 lab: 2
 lang: fr
-source_rev: "fc1b1bc4ad355d29d8bd7a867eec921cacc58d5c"
+source_rev: "e5fe1ff3765a1f4158d2c1412785c6f303e83786"
 screenshots:
   - annotated/vscode/package-xml-filtered
   - annotated/vscode/editor-field-file
@@ -31,7 +31,7 @@ depends_on:
 
 **Niveau** : 2 Contributeur avancé
 
-**Durée** : ~25 min<!-- observed --> (observé : médiane 25 min, 9 participants, le plus rapide 8 min)<!-- /observed -->
+**Durée** : ~35 min<!-- observed --> (observé : médiane 35 min, 21 participants, le plus rapide 17 min)<!-- /observed -->
 
 **Vous allez** : modifier un flow qui tourne déjà en production, rencontrer votre premier contrôle de
 déploiement en échec, lire l'erreur correctement, et trouver ce que votre package a oublié.
@@ -159,7 +159,7 @@ de Flow Builder ci-dessous. Le flow lui-même tourne en mode système et n'a bes
    the panels it needs.`
 10. **Activate**, le bouton qui remplace **Deactivate** sur la nouvelle version
 
-#### Pourquoi
+#### Pourquoi une nouvelle version
 
 Le flow est actif, Flow Builder ouvre donc la version qui tourne : chaque modification que vous faites
 est enregistrée comme une nouvelle version, et l'ancienne continue de tourner jusqu'à ce que vous
@@ -183,7 +183,7 @@ en avait déjà un, et votre nouvel élément le suit.
    tâche tarde à s'afficher, cliquez sur **Refresh** dans le panneau d'activités
 2. Enregistrez à nouveau
 
-#### Pourquoi
+#### Pourquoi vous ne voyez pas la case
 
 C'est la story qui fonctionne, dans votre org. La case à cocher elle-même reste invisible : aucun
 permission set ne l'accorde, parce que personne d'autre que le flow n'en a besoin, et la seule
@@ -210,9 +210,10 @@ Rappel : [Lab 1.5](../level-1-contributor-basics/1-5-retrieve-commit-and-publish
 
    ![La carte Save / Publish du panneau DevOps Pipeline](../../_assets/annotated/vscode/pipeline-cards--save-publish.png)
 
-5. Poussez, ouvrez la Pull Request vers `integration` dans votre fork (votre copie personnelle du
-   repository du cours sur GitHub, par exemple `github.com/my-username/sfdx-hardis-training`), et
-   attendez
+5. En bas du panneau, cliquez sur **Create Pull Request**, comme dans le [Lab 1.6](../level-1-contributor-basics/1-6-pull-request-deployment-check-and-merge.md) :
+   elle ouvre la Pull Request vers `integration` dans votre fork (votre copie personnelle du
+   repository du cours sur GitHub, par exemple `github.com/my-username/sfdx-hardis-training`).
+   Créez-la, et attendez
 
 !!! warning "Regardez ce que vous n'avez pas récupéré"
     Le retriever a aussi listé `Installation__c.Crew_Warning_Sent__c`, le champ que vous avez créé en

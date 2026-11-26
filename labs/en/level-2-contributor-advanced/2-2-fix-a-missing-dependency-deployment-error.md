@@ -31,7 +31,7 @@ depends_on:
 
 **Level**: 2 Contributor advanced
 
-**Time**: ~25 min<!-- observed --> (observed: median 25 min, 9 learners, fastest 8 min)<!-- /observed -->
+**Time**: ~35 min<!-- observed --> (observed: median 35 min, 21 learners, fastest 17 min)<!-- /observed -->
 
 **You will**: update a flow that already runs in production, meet your first failing deployment
 check, read the error properly, and find what your package forgot.
@@ -156,7 +156,7 @@ The flow itself runs in system mode and needs no grant.
    needs.`
 10. **Activate**, the button that replaces **Deactivate** on the new version
 
-#### Why
+#### Why a new version
 
 The flow is active, so Flow Builder opens the running version: every change you make is saved as a
 new version, and the old one keeps running until you activate yours.
@@ -178,7 +178,7 @@ new element follows it.
    slow to show, click **Refresh** in the activity panel
 2. Save again
 
-#### Why
+#### Why you cannot see the checkbox
 
 That is the story working, in your org.
 The checkbox itself stays out of sight: no permission set grants it, because nobody but the flow
@@ -205,7 +205,9 @@ Refresher: [Lab 1.5](../level-1-contributor-basics/1-5-retrieve-commit-and-publi
 
    ![The Save / Publish card of the DevOps Pipeline panel](../../_assets/annotated/vscode/pipeline-cards--save-publish.png)
 
-5. Push, open the Pull Request into `integration` in your fork (your own copy of the course repository on GitHub, for example `github.com/my-username/sfdx-hardis-training`), and wait
+5. At the bottom of the panel, click **Create Pull Request**, as in [Lab 1.6](../level-1-contributor-basics/1-6-pull-request-deployment-check-and-merge.md): it opens the
+   Pull Request into `integration` in your fork (your own copy of the course repository on GitHub,
+   for example `github.com/my-username/sfdx-hardis-training`). Create it, and wait
 
 !!! warning "Look at what you did not retrieve"
     The retriever also listed `Installation__c.Crew_Warning_Sent__c`, the field you created first.
